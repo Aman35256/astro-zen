@@ -1,30 +1,48 @@
-# AstroZen - Personal Portfolio Website
+# Aman Mishra - Personal Portfolio
 
-AstroZen is a minimalist, accessible and responsive portfolio template for your personal portfolio website. It is built with Astro and TailwindCSS.
-
-![zen-og](https://github.com/user-attachments/assets/7a72aaae-6652-4cd0-becc-8e6a3c224993)
-
-> [!NOTE]
-> The information contained in this template, including names, images, and content, is entirely fictitious and is intended solely to give the design a realistic appearance. Any coincidence with real-life people, events, or situations is purely coincidental. It is recommended that you replace this information with your own information.
+My personal portfolio website built with Astro and TailwindCSS. This website showcases my projects, skills, and experience as a Computer Science student at VIT Bhopal University.
 
 ## 🔥 Features
 
-- [x] Minimalist design. clean and simple
-- [x] Mobile-first responsive layout
-- [x] SEO-friendly and accessible
-- [x] Easy to customize with a single configuration file
+- Clean and minimalist design
+- Mobile-first responsive layout
+- SEO-friendly and accessible
+- Showcases my projects and experience
+- Easy to maintain with a single configuration file
 
-## ✅ Lighthouse Score
+## 💻 Projects Featured
 
-![performance](https://github.com/user-attachments/assets/4f95e2ca-03f9-4996-9e34-dcd179194c58)
+- Income Tracker - JavaScript application for expense management
+- Smart S3 Manager - Python tool for AWS S3 operations
+- 3D Visualization - HTML-based visualization project
+- Codearise - Hackathon project with innovative solutions
 
-## 🚀 Getting Started
+## 🚀 Tech Stack
 
-Clone this repository to your local machine using Git.
+- Astro
+- TailwindCSS
+- JavaScript/TypeScript
+- HTML/CSS
 
-```scheme
-git clone https://github.com/immois/astro-zen.git
+## 📫 Contact
+
+- GitHub: [@Aman35256](https://github.com/Aman35256)
+- LinkedIn: [Aman Mishra](https://www.linkedin.com/in/aman-mishra-15x5/)
+- Twitter: [@AmanMishra8201](https://x.com/AmanMishra8201)
+- Email: amanmishra35256@gmail.com
+
+## 🛠️ Local Development
+
+```bash
+# Clone the repository
+git clone https://github.com/Aman35256/astro-zen.git
 cd astro-zen
+
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm dev
 ```
 
 | Command        | Action                                       |
