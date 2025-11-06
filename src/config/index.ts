@@ -1,97 +1,105 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Aman Mishra — Mobile & Web Developer",
+  author: "Aman Mishra",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Software Engineer based in Bhopal, India. I specialize in AI and Machine Learning, web and mobile application development and maintenance.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/aman.png",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Twitter", href: "https://x.com/AmanMishra8201" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/aman-mishra-15x5/" },
+    { text: "Github", href: "https://github.com/Aman35256" },
   ],
-  socialImage: "/zen-og.png",
+  socialImage: "/any.png",
   canonicalURL: "https://astro-zen.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Aman Mishra",
+    specialty: "Frontend & ML Engineer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Computer Science student at VIT Bhopal University. Currently in my 2nd year, passionate about development and technology. Based in Bhopal, India.",
+    email: "amanmishra35256@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "VIT Bhopal University",
+      position: "Computer Science Student — Developer",
+      startDate: "Aug 2023",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Relevant coursework: Data Structures, Algorithms, Web Development, and Database Systems.",
+        "Built class projects and assignments using JavaScript, Python and HTML/CSS; focused on full‑stack and data processing tasks.",
+        "Collaborated with teammates using Git, participated in code reviews, and followed Agile/practical workflows.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Personal Projects & Open Source",
+      position: "Creator & Contributor",
+      startDate: "Sep 2023",
+      endDate: "Present",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Developed 'Income Tracker' — a JavaScript app deployed at https://income-tracker-aman.vercel.app/.",
+        "Worked on 'Smart S3 Manager' and other Python projects to automate cloud tasks and tooling.",
+        "Contributed to and forked open-source projects; submitted pull requests and maintained personal repos.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "Hackathons & Competitions",
+      position: "Participant",
+      startDate: "2023",
+      endDate: "Present",
+      summary: [
+        "Participated in hackathons (e.g., Smart India Hackathon), building prototypes under time constraints.",
+        "Focused on rapid prototyping and integrating backend services to deliver working demos.",
+      ],
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "Income Tracker",
+      summary: "A JavaScript application for tracking and managing personal income and expenses.",
+      linkPreview: "https://income-tracker-aman.vercel.app/",
+      linkSource: "https://github.com/Aman35256/Income-Tracker",
+      image: "/project-1.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "Smart S3 Manager",
+      summary: "A Python-based tool for managing and automating AWS S3 bucket operations efficiently.",
+      linkPreview: "https://github.com/Aman35256/Smart-S3-Manager",
+      linkSource: "https://github.com/Aman35256/Smart-S3-Manager",
+      image: "/project-2.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "3D Visualization",
+      summary: "An HTML-based project focusing on 3D visualization techniques and implementations.",
+      linkPreview: "https://github.com/Aman35256/3D-VISUALISATION",
+      linkSource: "https://github.com/Aman35256/3D-VISUALISATION",
+      image: "/project-3.png",
     },
+     {
+      name: "Codearise",
+      summary: "A Python project developed during a hackathon, showcasing innovative coding solutions.",
+      linkPreview: "https://github.com/Aman35256/Codearise",
+      linkSource: "https://github.com/Aman35256/Codearise",
+      image: "/project-4.png",
+     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi, I'm Aman Mishra, a second-year Computer Science student at VIT Bhopal University. I'm passionate about technology and software development, currently exploring various aspects of computer science and programming.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      As a student developer, I'm constantly learning and growing my skills through both academic projects and personal initiatives. I'm based in Bhopal, India, where I'm pursuing my education while working on various programming projects to build my portfolio and experience.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/aman.png",
   },
 };
 
